@@ -16,3 +16,41 @@
 .list-text:nth-child(odd){
 	background-color: #d3d3d3;
 }
+
+.boxes{
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.box{
+	width: 30%;
+	height: 200px;
+	margin-bottom: 40px;
+	display: inline-block;
+	background-color: yellow;
+}
+
+.box:nth-child(1){
+	background-color: orange;
+}
+
+.box:nth-child(2){
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.box:nth-child(5){
+	background-color: orange;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.box:nth-child(8){
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.box:nth-child(9){
+	background-color: orange;
+}
