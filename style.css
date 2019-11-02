@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.list{
+	width: 960px;
+	margin: 50px auto;
+}
+
+.list-text{
+	padding: 20px;
+}
+
+.list-text:nth-child(odd){
+	background-color: #d3d3d3;
+}
